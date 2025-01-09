@@ -1,3 +1,81 @@
 *{
-    background-color: azure;
+    font-family: "Poppins", serif;
+    margin: 0 ;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(76, 5, 199, 0.686);
+}
+.nav_content{
+    width:80%;
+    height: 100%;
+    margin: 0px auto ;
+    display: flex;
+}
+.nav_leftside{
+    width:50%;
+    height: 100%;
+    display: flex ;
+    justify-content:left;
+    align-items:center;
+
+}
+.nav_leftside img{
+    height: 60px;
+}
+h2{
+    font-weight: 500;
+    padding-left:20px;
+    letter-spacing:1.5px;
+}
+span{
+    color:chocolate;
+}
+.nav_rightside{
+    width:50%;
+    height: 100%;
+    display: flex ;
+    justify-content: space-between;
+    align-items:center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+button{
+    border-radius: 7px;
+    padding:7px 12px;
+    font-weight: 700;
+    background-color: rgb(189, 217, 98);
+    border: 0 ;
+}
+button:hover{
+    background-color:rgb(152, 182, 54) ;
+}
+button:active{
+    background-color:rgb(102, 123, 33) ;
+    padding:5px 9px;
+}
+.banner{
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    margin: 10px auto ;
+}
+.banner_text_container{
+    width: 50%;
+    background-color: gray;
+}
+.banner_img_container{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_img_container img{
+     width:100%;
+     height: 100%;
 }
