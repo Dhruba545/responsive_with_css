@@ -18,14 +18,17 @@
     }
     .banner{
         flex-direction:column;
+        min-width: 400px;
     }
     .banner_text_container{
         width: 100%;
         min-height: 200px;
+        order:2 ;
     }
     .banner_img_container{
         width: 100%;
         min-height: 200px;
+        order:1 ;
     }
 }
 
